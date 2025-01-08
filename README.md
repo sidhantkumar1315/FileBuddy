@@ -10,7 +10,7 @@ FileBuddy is a user-friendly Java Swing application that allows users to merge, 
 
 ## Requirements
 
--Java Development Kit (JDK) 8 or higher
+- Java Development Kit (JDK) 8 or higher
 - A Java IDE like Intellij IDEA or Visual Studios
 
 ## Usage
