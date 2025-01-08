@@ -8,6 +8,10 @@ FileBuddy is a user-friendly Java Swing application that allows users to merge, 
 - **Differences:** Find the different entries in both lists and return an ordered list containing those entries.
 - **Drag and Drop option:** Can also upload the document just by dragging and dropping.
 
+## Limitations
+
+- Only two (2) `.txt` files are allowed to perform the operations.
+
 ## Requirements
 
 - Java Development Kit (JDK) 8 or higher
@@ -17,6 +21,7 @@ FileBuddy is a user-friendly Java Swing application that allows users to merge, 
 
 1. **Clone the Repository**
 ```bash
+cd /path/to/your/directory
 git clone https://github.com/sidhantkumar1315/FileBuddy.git
 ```
 
@@ -24,10 +29,18 @@ git clone https://github.com/sidhantkumar1315/FileBuddy.git
 
 3. Run the application - Execute the "FileBuddy" class to launch the GUI.
 
-4. Attach or Drop Files: Use the "Attach Files" button or drag and grop the files into the GUI.
+4. Attach or Drop Files: Use the "Attach Files" button or drag and grop the files into the GUI (Max 2 `.txt` files are allowed).
 
 5. Choose any operation: Click on any of the operations to perform.
 
 6. Save the result: Choose a location to save the output file.
+
+## Examples
+Two example `.txt` files are included in the `examples/` directory to help you get started:
+
+- `example1.txt`
+- `example2.txt`
+
+You can use these files to test the application's features by attaching or dragging them into the GUI.
 
 
